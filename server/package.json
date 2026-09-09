@@ -1,0 +1,20 @@
+{
+  "name": "google-form-autofill-server",
+  "version": "1.0.0",
+  "description": "Backend engine for Google Form Auto Filler",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer-core": "^25.10.0"
+  }
+}

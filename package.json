@@ -1,0 +1,14 @@
+{
+  "name": "google-forms-autofill-suite",
+  "version": "1.0.0",
+  "description": "Universal Automated Google Form Submitter & Bulk Filler",
+  "scripts": {
+    "start": "npm run start:server",
+    "start:server": "cd server && node server.js",
+    "start:client": "cd client && npm run dev",
+    "dev": "npx concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
