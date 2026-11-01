@@ -10,5 +10,11 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.2"
+  },
+  "license": "MIT",
+  "author": "Gayathra Samuditha Vithanage Nanayakkara (gayathra45)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gayathra45/google-form-automatically-filler.git"
   }
 }
